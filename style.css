@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@keyframes mymove {
+  from {margin-top: 0em;}
+  to {margin-top: 1em;}
+}
+
+.home-page-container-start
+{
+  height: 30em;
+  background-color: #E27D60;
+}
+
+.home-page-container-start h1
+{
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  animation-duration: 3s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+.button-start-span
+{
+  display: flex;
+  justify-content: center;
+}
+.button-start-span button
+{
+  margin-top: 3em;
+  padding: 1em 5em;
+}
+
+.home-page-containter-inputs
+{
+
+}
+
+.mem
+{
+  padding-top: 4em;
+  width: 50%;
+}
